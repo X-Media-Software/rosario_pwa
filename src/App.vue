@@ -4,6 +4,9 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+    <span class="icon">
+      <i class="fas fa-home"></i>
+    </span>
     <router-view />
   </div>
 </template>

@@ -1,4 +1,6 @@
-# rosario
+# Rosario
+Rosario is a progressive web app that let enjoy and pray the holy rosary on all the devices.
+Simple and easy, it includes the the canonical pray and other additions.
 
 ## Project setup
 ```
