@@ -88,8 +88,8 @@
           </span>
           <p>
             <strong>Il Rosario del Martedì</strong> is developed by
-            <a href="antoniofortino.it">Antonio Fortino</a> using Javascript,
-            VueJS and Bulma. Thank you very much for using it.
+            <a href="http://antoniofortino.it">Antonio Fortino</a> using
+            Javascript, VueJS and Bulma. Thank you very much for using it.
           </p>
         </div>
       </div>
@@ -99,7 +99,7 @@
 
 <script>
 import WeekMenu from "@/components/WeekMenu.vue";
-import { Dolorosi } from "@/assets/misteri";
+import { Dolorosi, Gloriosi, Luminosi, Gioiosi } from "@/assets/misteri";
 import Statement from "@/components/Statement.vue";
 import SequenceControl from "@/components/SequenceControl.vue";
 
@@ -125,6 +125,9 @@ export default {
       this.mysteries = [];
       this.selectedDay = value;
       if (value === "Dolorosi") this.mysteries = Dolorosi;
+      if (value === "Gioiosi") this.mysteries = Gioiosi;
+      if (value === "Gloriosi") this.mysteries = Gloriosi;
+      if (value === "Luminosi") this.mysteries = Luminosi;
     },
     setStatementNumber(value) {
       this.currentStatementNumber = value;
@@ -155,9 +158,9 @@ export default {
   margin: 0.25em;
 }
 .info {
-  background-color: #FFFFFF;
-  right: 0px;
-  bottom:1em;
+  background-color: #ffffff;
+  right: 0;
+  bottom: 1em;
   position: fixed;
   min-height: 20px;
   margin: 0.25em;

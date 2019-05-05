@@ -2,7 +2,7 @@
   <div class="statement">
     <h4 class="title is-4">{{ number + 1 }}. {{ title() }}</h4>
     <p>{{ comment() }}</p>
-    <p>Padre Nostro, Aver Maria</p>
+    <p><span><strong>Padre Nostro</strong></span><span><strong>Aver Maria</strong></span></p>
   </div>
 </template>
 
@@ -32,6 +32,10 @@ export default {
 <style scoped>
 .statement p {
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
+  .statement p span {
+    display: block;
+    padding-bottom: 1em;
+  }
 </style>
