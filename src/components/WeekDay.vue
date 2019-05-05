@@ -1,6 +1,6 @@
 <template>
   <div class="box" v-on:click="selectDay(mystery)">
-    <p class="title is-3">{{ day }}</p>
+    <p class="title is-5">{{ day }}</p>
     <p class="subtitle">Misteri {{ mystery }}</p>
   </div>
 </template>

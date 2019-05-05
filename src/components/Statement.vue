@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="statement">
     <h4 class="title is-4">{{ number + 1 }}. {{ title() }}</h4>
     <p>{{ comment() }}</p>
     <p>Padre Nostro, Aver Maria</p>
@@ -29,4 +29,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.statement p {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+</style>
