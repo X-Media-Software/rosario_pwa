@@ -148,6 +148,7 @@ export default {
   background-color: var(--header-bg-color);
 }
 .header h1 {
+  color: azure;
   font-family: "Tangerine", cursive;
   font-size: 4em;
 }
