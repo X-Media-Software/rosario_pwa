@@ -8,5 +8,11 @@ module.exports = {
       clientLogLevel: "error",
       hotOnly: true
     }
+  },
+  pwa: {
+    iconPaths: {
+      favicon32: 'img/icons/favicon.jpg',
+      favicon16: 'img/icons/favicon.jpg'
+    }
   }
 };
